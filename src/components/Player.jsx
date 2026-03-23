@@ -7,7 +7,7 @@ export default function Player({ playerName, playerSymbol }) {
     let name = playerName;
 
     function handleEdit() {
-        setIsEditing(!isEditing)
+        setIsEditing(editing => !editing)
     }
 
     return (
